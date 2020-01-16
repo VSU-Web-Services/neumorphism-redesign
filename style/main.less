@@ -1,0 +1,109 @@
+@outset: 6px 6px 16px rgba(10, 19, 26, 0.5),
+        -6px -5px 20px rgba(247,251,255, 0.6);
+
+@inset: inset -3px -3px 16px rgba(247,251,255, 1),
+        inset  3px 3px 16px rgba(96, 111, 126, 0.8); 
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: 'Montserrat'!important;
+  background-color:#fff;
+  /* Move down content because we have a fixed navbar that is 3.5rem tall */
+  padding-top: 3.5rem;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.hide {
+  display: none;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: rgba(224, 240, 255, .4);
+  margin-top: 10px;
+}
+
+.jumbotron.hero {
+  min-height: 600px;
+}
+
+/*
+.panel {
+  background-color: rgba(255, 245, 255, .6);
+  border: 1px solid #E8EEF5;
+  border-radius: 60px;
+  max-width: 95%;
+  /* margin: 0 auto; *//*
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 10px;
+  text-align: center;
+  -moz-box-shadow:    @outset;
+  -webkit-box-shadow: @outset;
+  box-shadow:         @outset;
+    > div {
+      background: rgba(198, 206, 215, 1);
+      border-radius: 60px;
+      padding: 5px;
+      text-align: center;
+      -moz-box-shadow:    @inset;
+      -webkit-box-shadow: @inset;
+      box-shadow:         @inset;
+    }
+}
+*/
+
+.panel {
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p.call2action {
+  margin-top: 10px;
+}
+
+/*
+.btn.inset {
+  border-radius: 10px;
+  -moz-box-shadow:     @outset;
+  -webkit-box-shadow:  @outset;
+  box-shadow:          @outset;
+  padding: 5px;
+  div {
+   border-radius: 5px;
+   -moz-box-shadow:     @outset;
+   -webkit-box-shadow:  @outset;
+   box-shadow:          @outset;
+   margin: 0px;
+   padding: 5px;
+  }
+}
+*/
+
+footer {
+  background-color: #0e5cab;
+  width: 100%;
+  color: #ffffff;
+  a {
+    color: #ffffff;
+  }
+  a:hover {
+    color: #000d19;
+  }
+}
